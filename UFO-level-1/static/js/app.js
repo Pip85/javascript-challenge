@@ -31,3 +31,8 @@ var buttonContent = d3.select("#filter-btn");
 buttonContent.on("click", findSightings);
 formContent.on("submit", findSightings);
 var output = d3.select("#output");
+
+// Create findSightings function
+function findSightings() {
+    d3.event.preventDefault();
+    var origTable = d3.select("tbody");
