@@ -42,8 +42,7 @@ function findSightings() {
     if (dateRequest != "") {
         var dateMatch = tableData.filter (date => date.datetime === dateRequest);
         console.log(dateMatch);        
-        output.html("");   
-        // var tbody = d3.select("tbody");
+        output.html("");         
         dateMatch.forEach((tableBody) => {
             var addRow = origTable.append("tr");
             Object.entries(tableBody).forEach(([key, value]) => {
