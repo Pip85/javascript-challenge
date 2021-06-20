@@ -54,27 +54,3 @@ function findSightings() {
         location.reload();
     };
 }
-
-
-// Create findSightings function
-// function findSightings() {
-//     d3.event.preventDefault();
-//     var origTable = d3.select("tbody");
-//     var dateInput = d3.select("#datetime");
-//     var dateRequest = dateInput.property("value");     
-//     if (dateRequest != "") {
-//         var dateMatch = tableData.filter (date => date.datetime === dateRequest);
-//         console.log(dateMatch);        
-//         output.html("");   
-//         var tbody = d3.select("tbody");
-//         dateMatch.forEach((tableBody) => {
-//             var addRow = tbody.append("tr");
-//             Object.entries(tableBody).forEach(([key, value]) => {
-//                 var field = addRow.append("td");
-//                 field.text(value);
-//             });
-//         });
-//     } else {
-//         location.reload();
-//     };
-// }
