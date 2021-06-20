@@ -36,3 +36,5 @@ var output = d3.select("#output");
 function findSightings() {
     d3.event.preventDefault();
     var origTable = d3.select("tbody");
+    var dateInput = d3.select("#datetime");
+    var dateRequest = dateInput.property("value");   
