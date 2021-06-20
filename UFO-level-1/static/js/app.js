@@ -26,3 +26,8 @@ tableData.forEach((tableBody) => {
 // Set variables to hold contents of button and form from HTML
 var formContent = d3.select("#action");
 var buttonContent = d3.select("#filter-btn");
+
+// Set up event listener
+buttonContent.on("click", findSightings);
+formContent.on("submit", findSightings);
+var output = d3.select("#output");
