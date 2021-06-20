@@ -11,3 +11,10 @@ var tbody = d3.select("tbody");
 // Add table row for each item in tableData
 tableData.forEach((tableBody) => {
     var addRow = tbody.append("tr");
+
+    // Populate table rows with table data
+    Object.entries(tableBody).forEach(([key, value]) => {
+        var field = addRow.append("td");
+        field.text(value);
+    });
+});
