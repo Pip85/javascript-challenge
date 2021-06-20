@@ -22,3 +22,7 @@ tableData.forEach((tableBody) => {
 //========================================================================
 // Display filtered table
 //========================================================================
+
+// Set variables to hold contents of button and form from HTML
+var formContent = d3.select("#action");
+var buttonContent = d3.select("#filter-btn");
