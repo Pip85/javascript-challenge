@@ -49,8 +49,7 @@ click of enter button.  The code then pulls the user input and runs
 a function then displaying the table.
 
 ![header](https://github.com/Pip85/javascript-challenge/blob/main/UFO-level-1/static/Images/nasa.jpg)
-
-![table]()
+![table](https://github.com/Pip85/javascript-challenge/blob/main/UFO-level-1/static/Images/sightings_table.png)
 
 
 The Javascript function, findSightings, is run upon the event trigger.
