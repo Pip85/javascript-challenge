@@ -52,18 +52,17 @@ a function then displaying the table.
 ![table](https://github.com/Pip85/javascript-challenge/blob/main/UFO-level-1/static/Images/sightings_table.png)
 
 
-The Javascript function, findSightings, is run upon the event trigger.
+* The Javascript function, findSightings, is run upon the event trigger.
 This function prevents page refresh, and gathers the value of user
-input.  The next step in the function is a conditional that 
+input.
+* The next step in the function is a conditional that 
 determines whether the event trigger included properly formatted
 date input or no input. 
-
-If user input includes a valid date, the code filters the table
+* If user input includes a valid date, the code filters the table
 data to show information for that date only.  The table is first
 cleared of input, data is filtered for the user input and the 
 filtered table is displayed.  
-
-If the user inputs a date in the wrong format, no table data is 
+* If the user inputs a date in the wrong format, no table data is 
 shown.  If the user clicks the filter table or hits enter without 
 entering a date, the entire table is shown.
 
